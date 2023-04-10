@@ -13,7 +13,6 @@ place the RemoeBG.py in ```~/.config/GIMP/2.10/plug-ins/RemoveBG.py``` and make 
 
 ...
 In the line ```  aiExe = "/home/tom/.local/bin/rembg" ``` , choose the path for rembg in your system.  
-
 Restart GIMP
-```
+
 
