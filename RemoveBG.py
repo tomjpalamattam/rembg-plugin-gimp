@@ -40,7 +40,7 @@ def python_fu_RemoveBG(image, drawable, asMask, selModel, AlphaMatting, aeValue)
 		pdb.file_jpeg_save(tmpImage, tmpDrawable, jpgFile, jpgFile, 0.95, 0, 1, 0, "", 0, 1, 0, 0)
 		pdb.gimp_image_delete(tmpImage)
 	
-	aiExe = "~/.local/bin/rembg" # path for rembg
+	aiExe = "/home/tom/.local/bin/rembg" # path for rembg
 	if AlphaMatting:
 		option = "-a -ae %d" % (aeValue)
 	#cmd = '""%s" i %s "%s" "%s""' % (aiExe, option, jpgFile, pngFile)
